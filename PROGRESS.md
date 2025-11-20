@@ -62,7 +62,7 @@ For **each file** in `source-docs/`, create a separate analysis file in `analysi
 
 ### Checklist (one per file):
 
-- [ ] File 1: `BFT-PBFT_CFT_Raft.MD` → `analysis/files/BFT-PBFT_CFT_Raft_ANALYSIS.md`
+- [x] File 1: `BFT-PBFT_CFT_Raft.MD` → `analysis/files/BFT-PBFT_CFT_Raft_ANALYSIS.md`
 - [ ] File 2: `CONSENSUS_CORE_CODE_TAMPERING.MD` → `analysis/files/CONSENSUS_CORE_CODE_TAMPERING_ANALYSIS.md`
 - [ ] File 3: `MULTI_PARTY_CONSENSUS.md` → `analysis/files/MULTI_PARTY_CONSENSUS_ANALYSIS.md`
 - [ ] File 4: `inter_node_event_auth.md` → `analysis/files/inter_node_event_auth_ANALYSIS.md`
