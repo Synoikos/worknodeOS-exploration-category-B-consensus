@@ -71,13 +71,15 @@ For **each file** in `source-docs/`, create a separate analysis file in `analysi
 
 ### Checklist (one per file):
 
-- [ ] File 1: `___________` → `analysis/files/FILE1_ANALYSIS.md`
-- [ ] File 2: `___________` → `analysis/files/FILE2_ANALYSIS.md`
-- [ ] File 3: `___________` → `analysis/files/FILE3_ANALYSIS.md`
-
-(Add more based on file count)
+- [x] File 1: `BFT-PBFT_CFT_Raft.MD` → `analysis/files/BFT-PBFT_CFT_Raft_ANALYSIS.md` ✅
+- [ ] File 2: `CONSENSUS_CORE_CODE_TAMPERING.MD` → `analysis/files/CONSENSUS_CORE_CODE_TAMPERING_ANALYSIS.md`
+- [ ] File 3: `MULTI_PARTY_CONSENSUS.md` → `analysis/files/MULTI_PARTY_CONSENSUS_ANALYSIS.md`
+- [ ] File 4: `inter_node_event_auth.md` → `analysis/files/inter_node_event_auth_ANALYSIS.md`
 
 **Strategy**: Do 1-3 files per session, commit after each, resume in next session
+
+**Current Session Target**: Files 1-2 (BFT and Code Tampering)
+**Progress**: 1/4 complete (25%)
 
 **When complete**: Mark Phase 2 above as [x], commit all analyses, move to Phase 3
 
