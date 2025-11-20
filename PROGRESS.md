@@ -7,13 +7,13 @@
 
 ## 📊 5-PHASE WORKFLOW
 
-- [ ] **Phase 1**: Read all source files (get familiar, don't analyze yet)
+- [x] **Phase 1**: Read all source files (get familiar, don't analyze yet)
 - [ ] **Phase 2**: Analyze each file individually → `analysis/files/`
 - [ ] **Phase 3**: Cross-file synthesis → `analysis/SYNTHESIS.md`
 - [ ] **Phase 4**: Research questions → `analysis/CATEGORY_X_RESEARCH_QUESTIONS.md`
 - [ ] **Phase 5**: Final assembly → `analysis/CATEGORY_X_ANALYSIS.md`
 
-**Current Phase**: _____ (update as you progress)
+**Current Phase**: Phase 2 - Per-file analysis
 
 ---
 
@@ -26,12 +26,11 @@ List all files in `source-docs/` then read each one.
 ls -1 source-docs/
 ```
 
-For each file, create a checkbox below:
-- [ ] Read: `___________`
-- [ ] Read: `___________`
-- [ ] Read: `___________`
-
-(Add more as needed based on `ls` output)
+Files in this category (4 total):
+- [x] Read: `BFT-PBFT_CFT_Raft.MD` (48KB)
+- [x] Read: `CONSENSUS_CORE_CODE_TAMPERING.MD` (63KB)
+- [x] Read: `MULTI_PARTY_CONSENSUS.md` (32KB)
+- [x] Read: `inter_node_event_auth.md` (63KB)
 
 **When complete**: Mark Phase 1 above as [x], commit progress, move to Phase 2
 
@@ -63,11 +62,10 @@ For **each file** in `source-docs/`, create a separate analysis file in `analysi
 
 ### Checklist (one per file):
 
-- [ ] File 1: `___________` → `analysis/files/FILE1_ANALYSIS.md`
-- [ ] File 2: `___________` → `analysis/files/FILE2_ANALYSIS.md`
-- [ ] File 3: `___________` → `analysis/files/FILE3_ANALYSIS.md`
-
-(Add more based on file count)
+- [ ] File 1: `BFT-PBFT_CFT_Raft.MD` → `analysis/files/BFT-PBFT_CFT_Raft_ANALYSIS.md`
+- [ ] File 2: `CONSENSUS_CORE_CODE_TAMPERING.MD` → `analysis/files/CONSENSUS_CORE_CODE_TAMPERING_ANALYSIS.md`
+- [ ] File 3: `MULTI_PARTY_CONSENSUS.md` → `analysis/files/MULTI_PARTY_CONSENSUS_ANALYSIS.md`
+- [ ] File 4: `inter_node_event_auth.md` → `analysis/files/inter_node_event_auth_ANALYSIS.md`
 
 **Strategy**: Do 1-3 files per session, commit after each, resume in next session
 
@@ -163,7 +161,7 @@ Examples:
 
 Track sessions working on this category:
 
-- **Session 1** [Date]: Phase(s): _____ | Files completed: _____
+- **Session 1** [2025-11-20]: Phase(s): Phase 1 complete | Files read: All 4 files
 - **Session 2** [Date]: Phase(s): _____ | Files completed: _____
 - **Session 3** [Date]: Phase(s): _____ | Files completed: _____
 
