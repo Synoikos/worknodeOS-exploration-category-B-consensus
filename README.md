@@ -1,4 +1,4 @@
-# Category B: Consensus CATNAME BFT
+# Category B: Consensus & BFT
 ## Wave 1 Analysis - DISTRIBUTED_SYSTEMS Exploration Pipeline
 
 **Repository**: Part of 8-category parallel analysis
