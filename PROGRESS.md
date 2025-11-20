@@ -13,7 +13,7 @@
 - [ ] **Phase 4**: Research questions → `analysis/CATEGORY_B_RESEARCH_QUESTIONS.md`
 - [ ] **Phase 5**: Final assembly → `analysis/CATEGORY_B_ANALYSIS.md`
 
-**Current Phase**: Phase 1 COMPLETE ✅ - Moving to Phase 2
+**Current Phase**: Phase 2 IN PROGRESS (3/4 files analyzed)
 
 ---
 
@@ -62,9 +62,9 @@ For **each file** in `source-docs/`, create a separate analysis file in `analysi
 
 ### Checklist (one per file):
 
-- [ ] File 1: `BFT-PBFT_CFT_Raft.MD` → `analysis/files/BFT-PBFT_CFT_Raft_ANALYSIS.md`
-- [ ] File 2: `CONSENSUS_CORE_CODE_TAMPERING.MD` → `analysis/files/CONSENSUS_CORE_CODE_TAMPERING_ANALYSIS.md`
-- [ ] File 3: `MULTI_PARTY_CONSENSUS.md` → `analysis/files/MULTI_PARTY_CONSENSUS_ANALYSIS.md`
+- [x] File 1: `BFT-PBFT_CFT_Raft.MD` → `analysis/files/BFT-PBFT_CFT_Raft_ANALYSIS.md`
+- [x] File 2: `CONSENSUS_CORE_CODE_TAMPERING.MD` → `analysis/files/CONSENSUS_CORE_CODE_TAMPERING_ANALYSIS.md`
+- [x] File 3: `MULTI_PARTY_CONSENSUS.md` → `analysis/files/MULTI_PARTY_CONSENSUS_ANALYSIS.md`
 - [ ] File 4: `inter_node_event_auth.md` → `analysis/files/inter_node_event_auth_ANALYSIS.md`
 
 **Strategy**: Do 1-3 files per session, commit after each, resume in next session
@@ -161,7 +161,8 @@ Examples:
 
 Track sessions working on this category:
 
-- **Session 1** [2025-11-20]: Phase 1 COMPLETE | Files read: All 4 files (BFT-PBFT_CFT_Raft, CONSENSUS_CORE_CODE_TAMPERING, MULTI_PARTY_CONSENSUS, inter_node_event_auth)
+- **Session 1** [2025-11-20]: Phase 1 COMPLETE | Files read: All 4 files
+- **Session 1 (cont.)** [2025-11-20]: Phase 2 IN PROGRESS | Files analyzed: 3/4 (BFT, CODE_TAMPERING, MULTI_PARTY)
 - **Session 2** [Date]: Phase(s): _____ | Files completed: _____
 - **Session 3** [Date]: Phase(s): _____ | Files completed: _____
 
@@ -187,4 +188,4 @@ Before marking work complete:
 
 ---
 
-**CURRENT STATUS**: Phase 1 COMPLETE ✅ (all 4 files read) - Ready for Phase 2
+**CURRENT STATUS**: Phase 2 IN PROGRESS (3/4 files analyzed, 1 remaining: inter_node_event_auth.md)
